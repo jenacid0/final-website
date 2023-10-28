@@ -1,7 +1,59 @@
 /*Grid Webpage layout*/
 .flex-container {
     display: flex;
-    flex-direction: column;
-    float: left;
+    height: 50vh;
+    /*flex defaults and their options*/
+    flex-direction: row, row-reverse, column-reverse, column;
+    flex-wrap: wrap;
+    /*justify content is to set up the layout or content (start, end, center, etc. works too)*/
+    justify-content: flex-start, flex-end, center, space-between, space-around, space-evenly;
+    /*instead of justify content gap can be used to adjust the content as well / either or works*/
+    /*inbetween the rows is 10px, and columns is 20px (row, column)*/
+    gap: 10px 10px;
+    /*to specify the gaps rows or columns*/
+    row-gap: 20px;
+    column-gap: 10px;
+    /*item placement and alignments*/
+    align-items: stretch, start, center;
 }
 
+.flex-item {
+    width: 200px;
+    border: 1px solid gray;
+    background-color: lightgray;
+    text-align: center;
+}
+
+.item-1 {
+    min-height: 50px;
+    order: 0;
+    flex: auto, 0, 1, .05, none;
+}
+
+.item-2 {
+    min-height: 100px;
+}
+
+.item-3 {
+    min-height: 200px;
+    text-align: left;
+}
+
+.item-4 {
+    min-height: 100px;
+    flex: auto;
+}
+
+.item-5 {
+    min-height: 100px;
+    flex: auto;
+}
+
+/* MEDIA QUERY - To ensure that website is compatible and responsive w devices*/
+@media only screen and (max-device-width: 400px) and (-webkit-min-device-pixel-ration: 2) {
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+        height: 75vh;
+    }
+}
