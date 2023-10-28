@@ -1,0 +1,7 @@
+/*Grid Webpage layout*/
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+
