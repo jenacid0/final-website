@@ -1,22 +1,23 @@
 /*General layout for website*/
 html {
-    background-color: rgb(222, 170, 135);
+    background-color: rgb(165, 196, 211);
 }
 
 body {
     margin: auto;
     padding: 10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 header {
     padding: 10px;
-    margin: 20px;
-    font-size: 1.8em;
+    margin: 15px;
+    font-size: 2em;
     color: rgb(105, 71, 52);
     text-align: left;
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
 
 nav {
     overflow: auto;
@@ -31,7 +32,10 @@ nav a {
     padding: 10px 10px;
 }
 
+a:hover {
+    background-color:rgb(230, 149, 149);
+}
 div {
-    color: rgb(179, 151, 126);
-    margin: 10px;
+    color: rgb(206, 96, 33);
+    margin: 5px;
 }
