@@ -12,12 +12,16 @@ body {
 header {
     padding: 10px;
     margin: 15px;
-    font-size: 2em;
-    color: rgb(105, 71, 52);
-    text-align: left;
-    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+header a {
+    color: rgb(105, 71, 52);
+    text-decoration: none;
+    font-size: 2em;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: none;
+}
 
 nav {
     overflow: auto;
@@ -33,8 +37,9 @@ nav a {
 }
 
 a:hover {
-    background-color:rgb(230, 149, 149);
+    background-color: rgb(165, 196, 211);
 }
+
 div {
     color: rgb(206, 96, 33);
     margin: 5px;
