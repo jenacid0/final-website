@@ -4,7 +4,7 @@ html {
 }
 
 body {
-    margin: auto;
+    margin: 10px;
     padding: 10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -15,7 +15,7 @@ header {
 }
 
 header a {
-    color: rgb(105, 71, 52);
+    color: #496597;
     text-decoration: none;
     font-size: 2em;
     text-align: left;
@@ -25,7 +25,8 @@ header a {
 
 nav {
     overflow: auto;
-    background-color: rgb(107, 86, 74);
+    background-color: #496597;
+    width: 100%;
 }
 
 nav a {
@@ -41,6 +42,9 @@ a:hover {
 }
 
 div {
-    color: rgb(206, 96, 33);
-    margin: 5px;
+    color:#4a4997;
+}
+
+.item2 {
+    
 }
