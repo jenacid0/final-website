@@ -139,6 +139,13 @@ input[type=submit]:hover {
     margin-top: 20px;
 }
 
+.introcard {
+    background-color: #ececea;
+    padding: 20px;
+    margin-top: 20px;
+    width: 100%;
+}
+
 .row::after {
     content: "";
     display: table;
