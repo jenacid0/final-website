@@ -24,8 +24,57 @@ th {
 }
 
 tr:nth-child(even) {
-    background-color: #dddddd;
+    background-color: #d9d5f0;
 }
+
+/*CNT FORM*/
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=submit] {
+    background-color: #045aaa;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type=submit]:hover {
+    background-color: #457fa0;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
 
 /* Header/Blog Title */
 .header {
@@ -63,7 +112,7 @@ tr:nth-child(even) {
     color: black;
 }
 
-
+/*Columns*/
 .leftcolumn {
     float: left;
     width: 75%;
@@ -74,6 +123,13 @@ tr:nth-child(even) {
     width: 25%;
     background-color: #ccdcec;
     padding-left: 20px;
+}
+
+.centercolumn {
+    float: center;
+    width: 100%;
+    padding-left: 120px;
+    padding-right: 120px;
 }
 
 /*card effect */
@@ -123,4 +179,15 @@ tr:nth-child(even) {
 .responsive {
     width: 75%;
     height: auto;
+}
+
+/*CONTACT FORM RESPONSE*/
+@media screen and (max-width: 600px) {
+
+    .col-25,
+    .col-75,
+    input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
 }

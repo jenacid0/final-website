@@ -31,47 +31,30 @@
     </div>
 
     <div class="row">
-        <div class="leftcolumn">
+        <div class="centercolumn">
             <div class="card">
-                <h2>TITLE HEADING</h2>
-                <h5>Title description, Dec 7, 2017</h5>
-                <div class="fakeimg" style="height:200px;">Image</div>
-                <p>Some text..</p>
-                <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                    exercitation ullamco.</p>
-            </div>
-            <div class="card">
-                <h2>TITLE HEADING</h2>
-                <h5>Title description, Sep 2, 2017</h5>
-                <div class="fakeimg" style="height:200px;">Image</div>
-                <p>Some text..</p>
-                <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                    exercitation ullamco.</p>
-            </div>
-        </div>
-        <div class="rightcolumn">
-            <div class="card">
-                <h2>About Me</h2>
-                <div class="fakeimg" style="height:100px;">Image</div>
-                <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
-            </div>
-            <div class="card">
-                <h3>Popular Post</h3>
-                <div class="fakeimg">
-                    <p>Image</p>
-                </div>
-                <div class="fakeimg">
-                    <p>Image</p>
-                </div>
-                <div class="fakeimg">
-                    <p>Image</p>
-                </div>
-            </div>
-            <div class="card">
-                <h3>Follow Me</h3>
-                <p>Some text..</p>
+                <h2>Contact us or leave a message!</h2>
+                <form target="_self" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name"><br><br>
+                    <label for="email">Email:</label>
+                    <input type="text" name="email"><br><br>
+                    <label for="country">Country: </label>
+                    <select name="country" id="country">
+                        <option>Select an option</option>
+                        <option value="CNMI">CNMI</option>
+                        <option value="PH">PHILIPPINES</option>
+                        <option value="USA">USA</option>
+                        <option value="JPN">JAPAN</option>
+                        <option value="SKOR">S.KOREA</option>
+                        <option value="NKOR">N.KOREA</option>
+                    </select><br><br>
+                    <label for="message">Message:</label><br>
+                    <textarea name="message" id="message" cols="30" rows="4"></textarea><br><br>
+                    <input type="checkbox" name="newsletter" id="newsletter">
+                    <label for="newsletter">Subscribe?</label><br><br>
+                    <input type="submit" value="Submit">
+                </form>
             </div>
         </div>
     </div>
