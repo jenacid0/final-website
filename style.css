@@ -3,9 +3,28 @@
 }
 
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif;;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    ;
     padding: 10px;
     background: #ccdcec;
+}
+
+/*YARN WEBTABLE*/
+table {
+    border-collapse: collapse;
+    width: auto;
+    padding: 9px;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
 }
 
 /* Header/Blog Title */
@@ -23,13 +42,13 @@ body {
     color: #3b5780;
 }
 
-/* Style the top navigation bar */
+/*top navigation bar */
 .topnav {
     overflow: hidden;
-    background-color: #3b5780	;
+    background-color: #327893;
 }
 
-/* Style the topnav links */
+/*topnav links */
 .topnav a {
     float: left;
     display: block;
@@ -39,20 +58,17 @@ body {
     text-decoration: none;
 }
 
-/* Change color on hover */
 .topnav a:hover {
     background-color: #ddd;
     color: black;
 }
 
-/* Create two unequal columns that floats next to each other */
-/* Left column */
+
 .leftcolumn {
     float: left;
     width: 75%;
 }
 
-/* Right column */
 .rightcolumn {
     float: left;
     width: 25%;
@@ -60,31 +76,27 @@ body {
     padding-left: 20px;
 }
 
-
-/* Add a card effect for articles */
+/*card effect */
 .card {
-    background-color: white;
+    background-color: #ececea;
     padding: 20px;
     margin-top: 20px;
 }
 
-
-/* Clear floats after the columns */
 .row::after {
     content: "";
     display: table;
     clear: both;
 }
 
-/* Footer */
 .footer {
     padding: 20px;
     text-align: center;
-    background: #ddd;
+    background: #091D34;
     margin-top: 20px;
 }
 
-/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+/*MEDIA*/
 @media screen and (max-width: 800px) {
 
     .leftcolumn,
@@ -94,7 +106,6 @@ body {
     }
 }
 
-/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
 @media screen and (max-width: 400px) {
     .topnav a {
         float: none;
@@ -105,6 +116,11 @@ body {
 @media screen and (max-width: 400px) {
     .img {
         float: none;
-        width: 100%;
+        width: 75%;
     }
+}
+
+.responsive {
+    width: 75%;
+    height: auto;
 }
