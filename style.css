@@ -152,7 +152,7 @@ input[type=submit]:hover {
     margin-top: 20px;
 }
 
-/*MEDIA*/
+/*MEDIAS*/
 @media screen and (max-width: 800px) {
 
     .leftcolumn,
@@ -171,14 +171,15 @@ input[type=submit]:hover {
 
 @media screen and (max-width: 400px) {
     .img {
-        float: none;
-        width: 75%;
+        float: Left;
+        width: 100%;
+        height: 75%;
     }
 }
 
 .responsive {
-    width: 75%;
-    height: auto;
+    width: 100%;
+    height: 100%;
 }
 
 /*CONTACT FORM RESPONSE*/
