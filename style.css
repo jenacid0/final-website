@@ -285,6 +285,15 @@ input[type=submit]:hover {
     height: 98%;
 }
 
+.responsive-iframe {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 98%;
+    height: 640px;
+}
+
 /*CONTACT FORM RESPONSE*/
 @media screen and (max-width: 600px) {
 
