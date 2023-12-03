@@ -78,7 +78,7 @@ input[type=submit]:hover {
 
 /* Header/Blog Title */
 .header {
-    padding: 30px;
+    padding-top: 20px;
     text-align: center;
 }
 
@@ -281,8 +281,8 @@ input[type=submit]:hover {
 }
 
 .responsive {
-    width: 88%;
-    height: 88%;
+    width: 98%;
+    height: 98%;
 }
 
 /*CONTACT FORM RESPONSE*/
