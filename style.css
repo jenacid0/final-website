@@ -144,8 +144,8 @@ input[type=submit]:hover {
 .centercolumn {
     float: center;
     width: 100%;
-    padding-left: 120px;
-    padding-right: 120px;
+    padding-left: 320px;
+    padding-right: 320px;
 }
 
 /*card effect */
