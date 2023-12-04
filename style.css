@@ -9,6 +9,22 @@ body {
     background: #ccdcec;
 }
 
+.rpop {
+    overflow: hidden;
+}
+
+/*topnav links */
+.rpop a {
+    display: block;
+    color: #2c3e75;
+    text-align: left;
+    text-decoration: none;
+}
+
+.rpop a:hover {
+    color: #4f81c5;
+}
+
 /*YARN WEBTABLE*/
 table {
     border-collapse: collapse;
@@ -174,7 +190,7 @@ input[type=submit]:hover {
     color: #fff;
 }
 
-.socials {
+.linkz {
     list-style: none;
     display: flex;
     align-items: center;
@@ -182,11 +198,11 @@ input[type=submit]:hover {
     margin: 1rem 0 3rem 0;
 }
 
-.socials li {
+.linkz li {
     margin: 0 10px;
 }
 
-.socials a {
+.linkz a {
     text-decoration: none;
     color: #fff;
     border: 1.1px solid white;
@@ -196,7 +212,7 @@ input[type=submit]:hover {
 
 }
 
-.socials a i {
+.linkz a i {
     font-size: 1.1rem;
     width: 20px;
 
@@ -205,7 +221,7 @@ input[type=submit]:hover {
 
 }
 
-.socials a:hover i {
+.linkz a:hover i {
     color: aqua;
 }
 
