@@ -6,12 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" type="text/css" href="grid-style.css">
+    <link rel="stylesheet" type="text/css" href="slide-style.css">
     <link rel="html" type="html" href="about-index.html">
     <link rel="html" type="html" href="aqu-index.html">
     <link rel="html" type="html" href="knit-index.html">
     <link rel="html" type="html" href="cnt-index.html">
     <link rel="images" href="images/">
+    <script src="test.js"></script>
     <title>Humble Hobbies&#10084;</title>
 </head>
 
@@ -45,12 +46,54 @@
             </div>
 
             <div class="card">
-                <h2>My Recent Terrarium</h2>
+                <h2>My Recent Aquascape</h2>
                 <img class="responsive" src="images/tank.jpeg">
-                <p>Some text..</p>
-                <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                    exercitation ullamco.</p>
+                <h3><strong>Working with the enviornment of Aquariums.</strong></h3>
+                <p>This is a special kind of set up for me that I created. The Set up consists of a large black lava
+                    rock that we collected when we last visited Tinian. When it comes to scaping your aquarium it's
+                    important to understand the you can't just use any kind of aquatic plant nor rock you see at the
+                    beach or at home. It's important to study animals and plant life and how they would work together in
+                    order to create a safe and home like enovirment for the fish you care for.
+                </p>
+            </div>
+
+            <div class="card">
+                <h2>Shrimps n' Things</h2>
+                <div class="slideshow-container">
+                    <div class="mySlides fade">
+                        <div class="numbertext">1 / 3</div>
+                        <img class="responsive" src="images/shrimptanks.jpeg">
+                        <div class="text">Cherry red shrimp</div>
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">2 / 3</div>
+                        <img class="responsive" src="images/blushrimp.jpeg">
+                        <div class="text">Midnight/Blue Shrimps</div>
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">3 / 3</div>
+                        <img class="responsive" src="images/shrimptank.jpeg">
+                        <div class="text">Shrimps</div>
+                    </div>
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                <br>
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+                <h3><strong>Working with Shrimps.</strong></h3>
+                <p>Shrimps was actually one of the first freshwater animals I wanted to work with when starting this
+                    aquarium hobby. Other than guppies of course. The thought of breeding and observing these small
+                    wonderful creatures and how they live is just so facinating. But they are very tedious and
+                    challenging to take care of. Water conditions need to be precise and the right tempurature otherwise
+                    the shrimp could have a shock due to the change and die.
+                </p>
+                <p>I've had my fair share of losing beautiful shrimp and animals due to sudden change in water
+                    tempuratures, sad but eventually you start to realize that the same thing happens in real life also
+                    anyways especially with Climate change.</p>
             </div>
 
             <div class="card">
@@ -62,24 +105,49 @@
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowfullscreen></iframe>
                 </div>
-                <p>Mosaic Guppies</p>
-                <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                    exercitation ullamco.</p>
+                <h3><strong>Guppies</strong></h3>
+                <p>Check out my most recent video of my Mosaic guppies and my newest aquascape!</p>
             </div>
         </div>
         <div class="rightcolumn">
             <div class="card">
                 <h2>Aquariums</h2>
-                <div class="fakeimg" style="height:100px;">Image</div>
-                <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+                <img class="responsive" src="images/setup2.jpeg" alt="Set-up">
+                <p>Aquariums are always precieved as something you can just get and have at home, and often times I
+                    don't think people realize the true beauty and work it takes to care for aquatic animals and plants.
+                </p>
+                <p>It's a hobby where you can find peace and it's rather meditating to me
+                    to be able to watch these creatures enjoy they enovirment you created not just for them, but for
+                    yourself to enjoy as well.</p>
             </div>
+
             <div class="card">
-                <h3>Terrariums</h3>
+                <h3>My current aquatic pets:</h3>
+                <ul style="list-style-type:circle;">
+                    <li>Guppies</li>
+                    <li>Platy</li>
+                    <li>Mollies</li>
+                    <li>Turtles</li>
+                    <li>Shrimp</li>
+                </ul>
             </div>
+
             <div class="card">
-                <h3>Follow Me</h3>
-                <p>Some text..</p>
+                <h3>My To-Do list and projects:</h3>
+                <ul style="list-style-type:circle;">
+                    <li>Turtles and Ponds..</li>
+                    <li>Establishing new mini aquariums for Shrimps and separating them.</li>
+                    <li>Quality of life and water improvments for all animals.</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <div class="rpop">
+                    <h3 style="text-align: center;">Check out my Youtube Channel!</h3>
+                    <img src="images/tankes.jpeg" class="responsive">
+                    <a href="https://www.youtube.com/@alchemist670" target="_blank"
+                        style="font-size: larger; text-align: center;">Alchemist670</a>
+                </div>
             </div>
         </div>
     </div>
