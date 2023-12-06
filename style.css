@@ -172,7 +172,7 @@ input[type=submit]:hover {
 .footer {
     color: #fff;
     padding: 5px;
-    text-align: center;
+    text-align: left;
     background: #327893;
     margin-top: 20px;
     display: flex;
@@ -183,18 +183,18 @@ input[type=submit]:hover {
 
 .footer h2 {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: left;
+    justify-content: left;
     flex-direction: column;
-    text-align: center;
+    text-align: left;
     color: #fff;
 }
 
 .linkz {
     list-style: none;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: left;
+    justify-content: left;
     margin: 1rem 0 3rem 0;
 }
 
@@ -207,18 +207,13 @@ input[type=submit]:hover {
     color: #fff;
     border: 1.1px solid white;
     padding: 5px;
-
-    border-radius: 50%;
-
+    border-radius: 10%;
 }
 
 .linkz a i {
     font-size: 1.1rem;
     width: 20px;
-
-
     transition: color .4s ease;
-
 }
 
 .linkz a:hover i {
