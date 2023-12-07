@@ -9,6 +9,15 @@ body {
     background: #ccdcec;
 }
 
+h2 {
+    color: #4f81c5;
+
+}
+
+h3 {
+    color: rgb(68, 68, 68);
+}
+
 .rpop {
     overflow: hidden;
 }
@@ -222,7 +231,7 @@ input[type=submit]:hover {
 
 /*About Section*/
 .about-us {
-    height: 100vh;
+    height: 80vh;
     width: 100%;
     padding: 90px 0;
     color: #457fa0;
