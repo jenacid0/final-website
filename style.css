@@ -94,12 +94,12 @@ input[type=submit]:hover {
 
 /* Header/Blog Title */
 .header {
-    padding-top: 20px;
+    padding-top: 10px;
     text-align: center;
 }
 
 .header h1 {
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .header h1 a {
@@ -216,46 +216,76 @@ input[type=submit]:hover {
     transition: color .4s ease;
 }
 
-.linkz a:hover i {
-    color: aqua;
+.linkz a:hover {
+    color:#b6c2e6;
 }
 
 /*About Section*/
-.about-section {
-    padding: 50px;
-    text-align: center;
-    color: rgb(91, 92, 94);
-}
-
-.container {
-    padding: 0 16px;
-}
-
-.container::after,
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-.title {
-    color: grey;
-}
-
-.button {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 8px;
-    color: white;
-    background-color: #000;
-    text-align: center;
-    cursor: pointer;
+.about-us {
+    height: 100vh;
     width: 100%;
+    padding: 90px 0;
+    color: #457fa0;
 }
 
-.button:hover {
-    background-color: #555;
+.pic {
+    height: auto;
+    width: 302px;
+}
+
+.about {
+    width: 1100px;
+    max-width: 85%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text {
+    width: 540px;
+}
+
+.text h2 {
+    font-size: 90px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.text h5 {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+span {
+    color: #4070f4;
+}
+
+.text p {
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+
+.data {
+    margin-top: 30px;
+}
+
+.check {
+    font-size: 18px;
+    background: #4070f4;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    padding: 8px 25px;
+    border-radius: 6px;
+    transition: 0.5s;
+}
+
+.check:hover {
+    background: #000;
+    border: 1px solid #4070f4;
 }
 
 /*MEDIAS*/
@@ -286,7 +316,7 @@ input[type=submit]:hover {
 @media screen and (max-width: 400px) {
     .img {
         float: Left;
-        width: 100%;
+        width: 95%;
         height: 75%;
     }
 }
@@ -294,6 +324,7 @@ input[type=submit]:hover {
 .responsive {
     width: 98%;
     height: 98%;
+    display: block;
 }
 
 .responsive-iframe {
@@ -305,9 +336,9 @@ input[type=submit]:hover {
     height: 640px;
 }
 
+
 /*CONTACT FORM RESPONSE*/
 @media screen and (max-width: 600px) {
-
     .col-25,
     .col-75,
     input[type=submit] {
