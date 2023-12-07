@@ -29,17 +29,19 @@
     </div>
 
     <div class="row">
-        <div class="centercolumn">
+        <div style="padding: 50px;">
             <div class="card">
                 <h2>We'd love to hear from you!</h2>
-                <form target="_self" method="post">
-                    <label for="name">Name:</label>
-                    <input type="text" name="name"><br><br>
-                    <label for="email">Email:</label>
-                    <input type="text" name="email"><br><br>
+                <form  method="POST" action="https://jkorpela.fi/cgi-bin/echo.cgi" target="cgi-results">
+                    <label for="name">First Name:</label>
+                    <input type="text" name="name" required><br><br>
+                    <label for="name" >Last Name:</label>
+                    <input type="text" name="name" required><br><br>
+                    <label for="email" >Email:</label>
+                    <input type="text" name="email" required><br><br>
                     <label for="country">Country: </label>
-                    <select name="country" id="country">
-                        <option>Select an option</option>
+                    <select name="country" id="country" required>
+                        <option required>Select an option</option>
                         <option value="CNMI">CNMI</option>
                         <option value="PH">PHILIPPINES</option>
                         <option value="USA">USA</option>
@@ -48,11 +50,12 @@
                         <option value="NKOR">N.KOREA</option>
                     </select><br><br>
                     <label for="message">Message:</label><br>
-                    <textarea name="message" id="message" cols="30" rows="4"></textarea><br><br>
+                    <textarea name="message" id="message" cols="30" rows="4" required></textarea><br><br>
                     <input type="checkbox" name="newsletter" id="newsletter">
                     <label for="newsletter">Subscribe?</label><br><br>
                     <input type="submit" value="Submit">
                 </form>
+                <iframe name="cgi-results" id="cgi-results"></iframe>
             </div>
         </div>
     </div>
